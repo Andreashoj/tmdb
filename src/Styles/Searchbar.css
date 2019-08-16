@@ -1,0 +1,33 @@
+.searchbar-container {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.searchbar {
+    width: 50%;
+    border: 4px white !important;
+    border-bottom: 1px white solid !important;
+    color: white;
+}
+
+input {
+    color: white;
+}
+
+.logo {
+    background-image: url('../Components/Logo/logo.svg');
+    background-repeat: no-repeat;
+    margin-right: 20px;
+    height: 45px;
+    width: 60px;
+}
+
+@media screen and (max-width: 1500px) {
+    .searchbar-container {
+        width: 80%;
+        align-items: center;
+    }
+}
